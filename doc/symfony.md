@@ -21,8 +21,9 @@ C'est un framework PHP (cadriciel), une boîte à outils logicielle. CRUD (Creat
 - Pour installer doctrine :
         /////////// composer require doctrine /////////
 - Tout programme qui respecte les conventions psr-4 peut être chargé avec Composer (installé et utilisé)
-- Installation de Symfony :
- ````composer create-project symfony/website-skeleton nom_projet```
+- Installation de Symfony -> pour créer mon_projet :
+ ```composer create-project symfony/website-skeleton nom_projet```
+
 
 
 ## FLEX : 
