@@ -20,7 +20,6 @@
                     <th scope="col">Date de publication</th>
                     <th scope="col">Voir</th>
                     <th scope="col">Editer</th>
-                    
                 </tr>
             </thead>
             <tbody>
@@ -31,7 +30,7 @@
                     <td>{{ p.auteur }}</td>
                     <td>{{ p.titre }}</td>
                     <td>{{ p.description }}</td>
-                    <td>{{ p.date_publication | date('Y-m-d H:i:s') }}</td>
+                    <td>{{ p.date_publication | date('d/m/Y H:i:s') }}</td>
                     <td><a id="iconeEye" href="" class="far fa-eye text-decoration-none"></a></td>
                     <td><a id="iconePen" href="" class="fas fa-pen text-decoration-none"></a></td>
                 </tr>

@@ -14,13 +14,13 @@ class ArticlesController extends AbstractController
  /**
  * @Route("/articles/", name="articles_index")
  */
-    public function index(ArticlesRepository $articlesRepository, Request $truc)
+    public function index(ArticlesRepository $articlesRepository)
     {
         $articles = $articlesRepository->FindAll();
 
         // fonctionnalité de symfony équivalente au var_dump. Le resultat sera indiqué dans le profileur sur le navigateur
-        dump($truc);
-        // dd($truc);
+        // dump($truc);
+        // // dd($truc);
 
         return $this -> render('articles/index.html.twig', [
             'posts' => $articles
